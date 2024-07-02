@@ -1,0 +1,43 @@
+body {
+    background-color: lightgray;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    text-align: center;
+    max-width: 300px;
+    background-color: gray;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px black;
+}
+
+#inputNumber{
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#SubmitInput{
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+#SubmitInput:hover{
+    background-color: black;
+    color: white;
+}
+
+label{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+label:hover{
+    background-color: lightgray;
+    border-radius: 5px;
+}

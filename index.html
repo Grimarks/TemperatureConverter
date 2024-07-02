@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather Changer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form> <!--Menggunakan form karena akan membuat form-->
+    <h1 id="opener">Let's convert a temperature</h1>
+    <input type="number" id="inputNumber">
+    <h2 id="chooseLine">Choose what to what</h2>
+
+    <h2>From:</h2>
+    <input type="radio" id="CelciusFrom" name="from">
+    <label for="CelciusFrom">Celcius</label>
+    <input type="radio" id="FahrenheitFrom" name="from">
+    <label for="FahrenheitFrom">Fahrenheit</label>
+    <input type="radio" id="KelvinFrom" name="from">
+    <label for="KelvinFrom">Kelvin</label>
+
+    <h2>To:</h2>
+    <input type="radio" id="CelciusTo" name="to">
+    <label for="CelciusTo">Celcius</label>
+    <input type="radio" id="FahrenheitTo" name="to">
+    <label for="FahrenheitTo">Fahrenheit</label>
+    <input type="radio" id="KelvinTo" name="to">
+    <label for="KelvinTo">Kelvin</label>
+
+    <br> <br> <br>
+    <button id="SubmitInput">Submit</button>
+
+    <h1 id="result"></h1>
+</form>
+
+<script src="index.js"></script>
+</body>
+</html>
